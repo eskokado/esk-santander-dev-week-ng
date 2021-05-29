@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
 	"heroku-postbuild": "ng build --prod",
     "deploy": "ng deploy --base-href=https://eskokado.github.io/esk-santander-dev-week-ng/",
